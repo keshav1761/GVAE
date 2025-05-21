@@ -108,4 +108,4 @@ class MoleculeDataset(Dataset):
                                  f'data_{idx}.pt'))        
         return data
     
-#Dataset = MoleculeDataset(root= r"C:\Users\kesha\Desktop\GVAE\data", filename="PI_DATA_train.csv")
+#Dataset = MoleculeDataset(root= r"C:\Users\kesha\Desktop\GVAE\data", filename="HIV_train_oversampled.csv")
